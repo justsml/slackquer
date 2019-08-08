@@ -1,0 +1,36 @@
+{
+  "name": "slacquer",
+  "version": "1.0.0",
+  "description": "slack bot for spinning up temp docker services -- for rapid development.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justsml/slacquer.git"
+  },
+  "keywords": [],
+  "author": { 
+    "name": "Dan Levy",
+    "url": "https://danlevy.net/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/justsml/slacquer/issues"
+  },
+  "homepage": "https://github.com/justsml/slacquer#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "execa": "^2.0.3",
+    "express": "^4.17.1",
+    "express-pino-logger": "^4.0.0",
+    "get-port": "^5.0.0",
+    "helmet": "^3.20.0",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
