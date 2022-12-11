@@ -24,7 +24,7 @@
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "execa": "^2.0.3",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "express-pino-logger": "^4.0.0",
     "get-port": "^5.0.0",
     "helmet": "^3.20.0",
